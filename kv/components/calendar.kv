@@ -1,0 +1,10 @@
+MDFloatLayout:
+    MDLabel:
+        text: "Выбрать дату"
+        halign: "center"
+        pos_hint: {"center_x": 0.5, "center_y": 0.6}
+
+    MDButton:
+        text: "Календарь"
+        pos_hint: {"center_x": 0.5, "center_y": 0.4}
+        on_release: app.show_date_picker()
